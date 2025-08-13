@@ -1,0 +1,60 @@
+POST http://localhost:8081/mcq/new/
+Content-Type:application/json
+
+
+{
+  "id": "IITP_12235437",
+  "description": "jhadssdns",
+  "type": "ifjljf",
+  "correctAnswer": ["jkasdjzdh"],
+  "source": "anurag",
+  "subject": {
+    "id": "String",
+    "name": "String"
+  },
+  "chapter": {
+    "id": "String",
+    "name": "String"
+  },
+  "topics": "dkjzhcz",
+  "difficulty": "jdhfzxcfghgfh",
+  "solution": "jkzxczcdhdzi",
+  "isProofRead": true,
+  "createdAt": "ikszhczx",
+  "modifiedAt": "dhjfckjdxc",
+  "uploadedBy": {
+    "type": "kjschcjz",
+    "uploadedById": "jadhzsndxa"
+  },
+  "options": [
+    {
+      "id": "sjahdasj",
+      "value": "jdkskjsx"
+    }
+  ]
+}
+
+###
+
+POST https://questions.iitpulse.in/subject/createSubject
+Content-Type:application/json
+
+{
+  # "_id":"IITP_SB_ABC123",
+  "name":"Physics",
+  "chapters":
+  [
+    {
+      "id":"CH_1",
+      "name":"Ray Optics",
+      "subject":"Physics",
+      "topics":
+      [
+        "Magnetic Law",
+        "Something",
+        "Recursion",
+        "Kuldeep"
+      ]
+    }
+  ]
+}
