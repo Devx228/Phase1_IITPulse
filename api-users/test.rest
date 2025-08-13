@@ -1,0 +1,48 @@
+GET http://localhost:8080/login
+Content-Type: application/json
+
+    
+{
+    "email": "admin@iitp.com",
+    "password": "sunil123"
+}
+
+
+### Student Login
+
+POST http://localhost:8080/auth/login/
+Content-Type: application/json
+
+{
+    "email": "nagar@gmail.com",
+    "password": "password"
+}
+
+###add Institute
+
+POST http://localhost:8080/institute/create
+Content-Type: application/json
+
+{   "_id":"IITP",
+    "name": "IITP",
+    "batches": [
+          {
+        "id": "bid",
+        "name": "Proton",
+        "totalStudents": "50"
+      } ,
+          {
+        "id": "bid2",
+        "name": "WarriorA",
+        "totalStudents": "60"
+      } ,
+          {
+        "id": "bid3",
+        "name": "Dropper",
+        "totalStudents": "40"
+      } 
+        ],
+    "createdAt": "1pm",
+    "modifiedAt": "1pm",
+    "email": "IIP@email.com"
+}

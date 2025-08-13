@@ -1,0 +1,12 @@
+export { default as AdminUser } from "./Admin.model.js";
+export { default as ManagerUser } from "./Manager.model.js";
+export { default as OperatorUser } from "./Operator.model.js";
+export { default as StudentUser } from "./Student.model.js";
+export { default as SuperAdminUser } from "./SuperAdmin.model.js";
+export { default as TeacherUser } from "./Teacher.model.js";
+export { default as Role } from "./Role.model.js";
+export { default as Batch } from "./Batch.model.js";
+export { default as Otp } from "./Otp.model.js";
+export { default as EmailOtp } from "./EmailOtp.model.js";
+export { default as PasswordReset } from "./PasswordReset.model.js";
+export { default as Class } from "./Class.model.js";

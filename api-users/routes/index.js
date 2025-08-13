@@ -1,0 +1,15 @@
+export { default as adminRoutes } from "./admin.routes.js";
+export { default as managerRoutes } from "./manager.routes.js";
+export { default as operatorRoutes } from "./operator.routes.js";
+export { default as studentRoutes } from "./student.routes.js";
+export { default as superAdminRoutes } from "./superAdmin.routes.js";
+export { default as teacherRoutes } from "./teacher.routes.js";
+export { default as loginRoutes } from "./auth.routes.js";
+export { default as roleRoutes } from "./role.routes.js";
+export { default as batchRoutes } from "./batch.routes.js";
+export { default as instituteRoutes } from "./institute.routes.js";
+export { default as otpRoutes } from "./otp.routes.js";
+export { default as emailOtpRoutes } from "./emailOtp.routes.js";
+export { default as passwordresetRoutes } from "./passwordreset.routes.js";
+export { default as usersRoutes } from "./users.routes.js";
+export { default as classRoutes } from "./class.routes.js";

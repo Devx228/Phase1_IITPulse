@@ -1,0 +1,26 @@
+export const Validity = {
+  from: String,
+  to: String,
+};
+
+export const ACCESS_TYPES = {
+  ACCESS_PREVIOUS_YEAR_PAPERS: "ACCESS_PREVIOUS_YEAR_PAPERS",
+  ACCESS_PRACTICE_QUESTIONS: "ACCESS_PRACTICE_QUESTIONS",
+  ACCESS_CREATE_STUDENT: "ACCESS_CREATE_STUDENT",
+};
+
+export const USER_TYPE = {
+  USER_SUPER_ADMIN: "SUPER_ADMIN",
+  USER_ADMIN: "ADMIN",
+  USER_STUDENT: "STUDENT",
+  USER_MANAGER: "MANAGER",
+  USER_TEACHER: "TEACHER",
+  USER_OPERATOR: "OPERATOR",
+};
+
+export const Access = {
+  type: ACCESS_TYPES.ACCESS_PREVIOUS_YEAR_PAPERS,
+  validity: Validity,
+};
+
+export const E2E_TESTING_EMAIL = "e2e-test@email.com";

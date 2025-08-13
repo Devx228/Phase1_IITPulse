@@ -1,0 +1,9 @@
+.flexRow {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.flexCol {
+  @extend .flexRow;
+  flex-direction: column;
+}
